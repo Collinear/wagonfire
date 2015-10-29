@@ -12,11 +12,9 @@ class MainViewViewController: UIViewController {
 
     //MARK: - IBOutlets
     
-    @IBOutlet weak var gsMainView: UIView!
-    @IBOutlet weak var ttMainView: UIView!
-    
-    
-    
+    @IBOutlet weak var wagonView : UIImageView!
+    @IBOutlet weak var fiewView  : UIImageView!
+   
     
     
     override func viewDidLoad() {

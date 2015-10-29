@@ -20,6 +20,8 @@
 		E52497581BE1D8B7009BBC72 /* wagonfire.png in Resources */ = {isa = PBXBuildFile; fileRef = E52497571BE1D8B7009BBC72 /* wagonfire.png */; settings = {ASSET_TAGS = (); }; };
 		E524975A1BE1DB6B009BBC72 /* cooltext145341106966042.png in Resources */ = {isa = PBXBuildFile; fileRef = E52497591BE1DB6B009BBC72 /* cooltext145341106966042.png */; settings = {ASSET_TAGS = (); }; };
 		E524975C1BE1DC94009BBC72 /* wagonfire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E524975B1BE1DC94009BBC72 /* wagonfire.jpg */; settings = {ASSET_TAGS = (); }; };
+		E5FDCFD91BE2437A001C2791 /* cooltext145388039495918.png in Resources */ = {isa = PBXBuildFile; fileRef = E5FDCFD71BE2437A001C2791 /* cooltext145388039495918.png */; settings = {ASSET_TAGS = (); }; };
+		E5FDCFDA1BE2437A001C2791 /* cooltext145387992590411.png in Resources */ = {isa = PBXBuildFile; fileRef = E5FDCFD81BE2437A001C2791 /* cooltext145387992590411.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		E52497571BE1D8B7009BBC72 /* wagonfire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wagonfire.png; path = wagonfire/Images/wagonfire.png; sourceTree = "<group>"; };
 		E52497591BE1DB6B009BBC72 /* cooltext145341106966042.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooltext145341106966042.png; sourceTree = "<group>"; };
 		E524975B1BE1DC94009BBC72 /* wagonfire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wagonfire.jpg; path = wagonfire/Images/wagonfire.jpg; sourceTree = "<group>"; };
+		E5FDCFD71BE2437A001C2791 /* cooltext145388039495918.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooltext145388039495918.png; sourceTree = "<group>"; };
+		E5FDCFD81BE2437A001C2791 /* cooltext145387992590411.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooltext145387992590411.png; sourceTree = "<group>"; };
 		E820430ECE3F93886EDE8941 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +115,7 @@
 			children = (
 				E524971B1BE1C2CC009BBC72 /* wagonfire */,
 				E524974B1BE1CD45009BBC72 /* MainView */,
+				E5FDCFDB1BE24B2E001C2791 /* Utils */,
 				E52497501BE1D10D009BBC72 /* Images */,
 				E52497301BE1C2CC009BBC72 /* wagonfireTests */,
 				E524973B1BE1C2CC009BBC72 /* wagonfireUITests */,
@@ -173,11 +178,20 @@
 		E52497501BE1D10D009BBC72 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E5FDCFD71BE2437A001C2791 /* cooltext145388039495918.png */,
+				E5FDCFD81BE2437A001C2791 /* cooltext145387992590411.png */,
 				E524975B1BE1DC94009BBC72 /* wagonfire.jpg */,
 				E52497591BE1DB6B009BBC72 /* cooltext145341106966042.png */,
 				E52497571BE1D8B7009BBC72 /* wagonfire.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		E5FDCFDB1BE24B2E001C2791 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +306,9 @@
 				E52497241BE1C2CC009BBC72 /* Assets.xcassets in Resources */,
 				E524974D1BE1CE25009BBC72 /* MainView.storyboard in Resources */,
 				E52497581BE1D8B7009BBC72 /* wagonfire.png in Resources */,
+				E5FDCFD91BE2437A001C2791 /* cooltext145388039495918.png in Resources */,
 				E52497221BE1C2CC009BBC72 /* Main.storyboard in Resources */,
+				E5FDCFDA1BE2437A001C2791 /* cooltext145387992590411.png in Resources */,
 				E524975C1BE1DC94009BBC72 /* wagonfire.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
