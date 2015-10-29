@@ -7,24 +7,43 @@
 //
 
 import UIKit
+import SnapKit
 
 class MainViewViewController: UIViewController {
 
     //MARK: - IBOutlets
     
-    @IBOutlet weak var wagonView : UIImageView!
-    @IBOutlet weak var fiewView  : UIImageView!
-   
+    @IBOutlet weak var backgroundView : UIView!
+    @IBOutlet weak var fireLogoImage  : UIImageView!
+    @IBOutlet weak var wagonTextImage : UIImageView!
+    @IBOutlet weak var fireTextImage  : UIImageView!
     
+    //MARK: - Custom methods
+    func constraints() {
+        backgroundView.frame = CGRectMake(0, 0, super.view.frame.width, super.view.frame.height)
+        
+//        fireLogoImage.snp_makeConstraints { (make) -> Void in
+//            make.top.equalTo(backgroundView.snp_top)
+//            make.bottom.equalTo(backgroundView.snp_bottom)
+//            make.height.equalTo(backgroundView.snp_height)
+//            make.width.equalTo(backgroundView.snp_width)
+//        }
+    }
+    
+    
+    //MARK: - Internal methods
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let seconds = 4.0
+        constraints()
+        
+        let seconds = 2.0
         let delay = seconds * Double(NSEC_PER_SEC)  // nanoseconds per seconds
-        var dispatchTime = dispatch_time(DISPATCH_TIME_NOW, Int64(delay))
+        let dispatchTime = dispatch_time(DISPATCH_TIME_NOW, Int64(delay))
         
         dispatch_after(dispatchTime, dispatch_get_main_queue(), {
-            self.wagonView.startAnimating()
+            self.wagonTextImage.startRotating(RIGHT)
+            self.fireTextImage.startRotating(LEFT)
         })
     }
 
