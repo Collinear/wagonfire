@@ -16,11 +16,16 @@ class MainViewViewController: UIViewController {
     @IBOutlet weak var fiewView  : UIImageView!
    
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let seconds = 4.0
+        let delay = seconds * Double(NSEC_PER_SEC)  // nanoseconds per seconds
+        var dispatchTime = dispatch_time(DISPATCH_TIME_NOW, Int64(delay))
+        
+        dispatch_after(dispatchTime, dispatch_get_main_queue(), {
+            self.wagonView.startAnimating()
+        })
     }
 
     override func didReceiveMemoryWarning() {

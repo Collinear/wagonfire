@@ -22,6 +22,7 @@
 		E524975C1BE1DC94009BBC72 /* wagonfire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E524975B1BE1DC94009BBC72 /* wagonfire.jpg */; settings = {ASSET_TAGS = (); }; };
 		E5FDCFD91BE2437A001C2791 /* cooltext145388039495918.png in Resources */ = {isa = PBXBuildFile; fileRef = E5FDCFD71BE2437A001C2791 /* cooltext145388039495918.png */; settings = {ASSET_TAGS = (); }; };
 		E5FDCFDA1BE2437A001C2791 /* cooltext145387992590411.png in Resources */ = {isa = PBXBuildFile; fileRef = E5FDCFD81BE2437A001C2791 /* cooltext145387992590411.png */; settings = {ASSET_TAGS = (); }; };
+		E5FDCFDD1BE24C4E001C2791 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDCFDC1BE24C4E001C2791 /* Extensions.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		E524975B1BE1DC94009BBC72 /* wagonfire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wagonfire.jpg; path = wagonfire/Images/wagonfire.jpg; sourceTree = "<group>"; };
 		E5FDCFD71BE2437A001C2791 /* cooltext145388039495918.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooltext145388039495918.png; sourceTree = "<group>"; };
 		E5FDCFD81BE2437A001C2791 /* cooltext145387992590411.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooltext145387992590411.png; sourceTree = "<group>"; };
+		E5FDCFDC1BE24C4E001C2791 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = wagonfire/Extensions/Extensions.swift; sourceTree = "<group>"; };
 		E820430ECE3F93886EDE8941 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -190,6 +192,7 @@
 		E5FDCFDB1BE24B2E001C2791 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				E5FDCFDC1BE24C4E001C2791 /* Extensions.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 				E524971F1BE1C2CC009BBC72 /* ViewController.swift in Sources */,
 				E524974F1BE1CE8F009BBC72 /* MainViewViewController.swift in Sources */,
 				E524971D1BE1C2CC009BBC72 /* AppDelegate.swift in Sources */,
+				E5FDCFDD1BE24C4E001C2791 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
