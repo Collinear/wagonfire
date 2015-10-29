@@ -14,6 +14,11 @@
 		E52497271BE1C2CC009BBC72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52497251BE1C2CC009BBC72 /* LaunchScreen.storyboard */; };
 		E52497321BE1C2CC009BBC72 /* wagonfireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52497311BE1C2CC009BBC72 /* wagonfireTests.swift */; };
 		E524973D1BE1C2CC009BBC72 /* wagonfireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E524973C1BE1C2CC009BBC72 /* wagonfireUITests.swift */; };
+		E524974D1BE1CE25009BBC72 /* MainView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E524974C1BE1CE25009BBC72 /* MainView.storyboard */; settings = {ASSET_TAGS = (); }; };
+		E524974F1BE1CE8F009BBC72 /* MainViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E524974E1BE1CE8F009BBC72 /* MainViewViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E52497581BE1D8B7009BBC72 /* wagonfire.png in Resources */ = {isa = PBXBuildFile; fileRef = E52497571BE1D8B7009BBC72 /* wagonfire.png */; settings = {ASSET_TAGS = (); }; };
+		E524975A1BE1DB6B009BBC72 /* cooltext145341106966042.png in Resources */ = {isa = PBXBuildFile; fileRef = E52497591BE1DB6B009BBC72 /* cooltext145341106966042.png */; settings = {ASSET_TAGS = (); }; };
+		E524975C1BE1DC94009BBC72 /* wagonfire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E524975B1BE1DC94009BBC72 /* wagonfire.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		E52497381BE1C2CC009BBC72 /* wagonfireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wagonfireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E524973C1BE1C2CC009BBC72 /* wagonfireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wagonfireUITests.swift; sourceTree = "<group>"; };
 		E524973E1BE1C2CC009BBC72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E524974C1BE1CE25009BBC72 /* MainView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainView.storyboard; path = wagonfire/MainView/MainView.storyboard; sourceTree = "<group>"; };
+		E524974E1BE1CE8F009BBC72 /* MainViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewViewController.swift; path = wagonfire/MainView/MainViewViewController.swift; sourceTree = "<group>"; };
+		E52497571BE1D8B7009BBC72 /* wagonfire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wagonfire.png; path = wagonfire/Images/wagonfire.png; sourceTree = "<group>"; };
+		E52497591BE1DB6B009BBC72 /* cooltext145341106966042.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooltext145341106966042.png; sourceTree = "<group>"; };
+		E524975B1BE1DC94009BBC72 /* wagonfire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wagonfire.jpg; path = wagonfire/Images/wagonfire.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				E524971B1BE1C2CC009BBC72 /* wagonfire */,
+				E524974B1BE1CD45009BBC72 /* MainView */,
+				E52497501BE1D10D009BBC72 /* Images */,
 				E52497301BE1C2CC009BBC72 /* wagonfireTests */,
 				E524973B1BE1C2CC009BBC72 /* wagonfireUITests */,
 				E524971A1BE1C2CC009BBC72 /* Products */,
@@ -123,6 +135,25 @@
 				E524973E1BE1C2CC009BBC72 /* Info.plist */,
 			);
 			path = wagonfireUITests;
+			sourceTree = "<group>";
+		};
+		E524974B1BE1CD45009BBC72 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				E524974C1BE1CE25009BBC72 /* MainView.storyboard */,
+				E524974E1BE1CE8F009BBC72 /* MainViewViewController.swift */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		E52497501BE1D10D009BBC72 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E524975B1BE1DC94009BBC72 /* wagonfire.jpg */,
+				E52497591BE1DB6B009BBC72 /* cooltext145341106966042.png */,
+				E52497571BE1D8B7009BBC72 /* wagonfire.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +223,7 @@
 				TargetAttributes = {
 					E52497181BE1C2CC009BBC72 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = P5U3KF2575;
 					};
 					E524972C1BE1C2CC009BBC72 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -228,9 +260,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E524975A1BE1DB6B009BBC72 /* cooltext145341106966042.png in Resources */,
 				E52497271BE1C2CC009BBC72 /* LaunchScreen.storyboard in Resources */,
 				E52497241BE1C2CC009BBC72 /* Assets.xcassets in Resources */,
+				E524974D1BE1CE25009BBC72 /* MainView.storyboard in Resources */,
+				E52497581BE1D8B7009BBC72 /* wagonfire.png in Resources */,
 				E52497221BE1C2CC009BBC72 /* Main.storyboard in Resources */,
+				E524975C1BE1DC94009BBC72 /* wagonfire.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E524971F1BE1C2CC009BBC72 /* ViewController.swift in Sources */,
+				E524974F1BE1CE8F009BBC72 /* MainViewViewController.swift in Sources */,
 				E524971D1BE1C2CC009BBC72 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = wagonfire/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mpc.wagonfire;
@@ -407,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = wagonfire/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mpc.wagonfire;
