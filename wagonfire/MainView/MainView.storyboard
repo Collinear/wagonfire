@@ -71,14 +71,73 @@
                         <outlet property="fireLogoImage" destination="5vA-ck-oNA" id="RYu-oz-aQp"/>
                         <outlet property="fireTextImage" destination="hSr-XT-FpV" id="UIw-NW-I6w"/>
                         <outlet property="wagonTextImage" destination="m0K-3N-VcW" id="Cqs-Az-kHA"/>
+                        <segue destination="ZGP-ln-uN3" kind="modal" identifier="MainToSegueIdentifier" modalTransitionStyle="flipHorizontal" id="xgW-bD-Vyl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I4y-tY-NEI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="120" y="364"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="d2w-Rr-jwd">
+            <objects>
+                <viewController id="ZGP-ln-uN3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="K6z-4P-OIy"/>
+                        <viewControllerLayoutGuide type="bottom" id="RQQ-KW-Ycx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ybh-Pw-SCF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fIr-bt-7O1">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fire-Flames.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PVm-hs-qmq">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="PVm-hs-qmq" secondAttribute="height" multiplier="40:71" id="hnS-OS-u0s"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RedWagonBella.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ylt-FX-iij">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="ylt-FX-iij" secondAttribute="height" multiplier="40:71" id="IhK-f7-7V1"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.74117648599999997" green="0.89411771299999998" blue="0.94117653369999998" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fIr-bt-7O1" secondAttribute="height" multiplier="40:71" id="09r-5f-Iss"/>
+                                    <constraint firstItem="ylt-FX-iij" firstAttribute="leading" secondItem="PVm-hs-qmq" secondAttribute="leading" id="Sa5-CJ-oDo"/>
+                                    <constraint firstAttribute="bottom" secondItem="PVm-hs-qmq" secondAttribute="bottom" id="UYC-wz-6HP"/>
+                                    <constraint firstItem="PVm-hs-qmq" firstAttribute="leading" secondItem="fIr-bt-7O1" secondAttribute="leading" id="bta-Ww-t34"/>
+                                    <constraint firstItem="ylt-FX-iij" firstAttribute="top" secondItem="PVm-hs-qmq" secondAttribute="top" id="dhB-xF-Cqe"/>
+                                    <constraint firstItem="ylt-FX-iij" firstAttribute="bottom" secondItem="PVm-hs-qmq" secondAttribute="bottom" id="md6-5J-sB6"/>
+                                    <constraint firstItem="PVm-hs-qmq" firstAttribute="top" secondItem="fIr-bt-7O1" secondAttribute="top" id="pBc-oF-wd1"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fIr-bt-7O1" firstAttribute="top" secondItem="Ybh-Pw-SCF" secondAttribute="top" id="LSE-mU-Djj"/>
+                            <constraint firstItem="fIr-bt-7O1" firstAttribute="leading" secondItem="Ybh-Pw-SCF" secondAttribute="leading" id="UGj-hs-1ab"/>
+                            <constraint firstItem="fIr-bt-7O1" firstAttribute="bottom" secondItem="RQQ-KW-Ycx" secondAttribute="top" id="vhR-HK-dfa"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3sj-Kc-5so" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="559" y="364"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Fire-Flames.jpg" width="1600" height="1200"/>
+        <image name="RedWagonBella.jpg" width="1315" height="1473"/>
         <image name="cooltext145387992590411.png" width="228" height="64"/>
         <image name="cooltext145388039495918.png" width="78" height="35"/>
         <image name="wagonfire.jpg" width="1200" height="1800"/>

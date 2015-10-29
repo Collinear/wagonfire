@@ -45,6 +45,17 @@ class MainViewViewController: UIViewController {
             self.wagonTextImage.startRotating(RIGHT)
             self.fireTextImage.startRotating(LEFT)
         })
+        
+        
+        let segueTime = 4.0
+        let segueDelay = segueTime * Double(NSEC_PER_SEC)
+        let segueDispatch = dispatch_time(DISPATCH_TIME_NOW, Int64(segueDelay))
+        dispatch_after(segueDispatch, dispatch_get_main_queue(), {
+            self.performSegueWithIdentifier("MainToSegueIdentifier", sender: self)
+        })
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -53,14 +64,12 @@ class MainViewViewController: UIViewController {
     }
     
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
+        
+    }
 }
