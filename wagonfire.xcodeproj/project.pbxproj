@@ -23,6 +23,10 @@
 		E52C60AB1BE294FF0062DF32 /* Fire-Flames.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E52C60A91BE294FF0062DF32 /* Fire-Flames.jpg */; settings = {ASSET_TAGS = (); }; };
 		E52C60AC1BE294FF0062DF32 /* pTRU1-18398012enh-z6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E52C60AA1BE294FF0062DF32 /* pTRU1-18398012enh-z6.jpg */; settings = {ASSET_TAGS = (); }; };
 		E52C60AE1BE2958A0062DF32 /* RedWagonBella.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E52C60AD1BE2958A0062DF32 /* RedWagonBella.jpg */; settings = {ASSET_TAGS = (); }; };
+		E52C60B01BE29A110062DF32 /* adf1baca-05d7-11e3-918e-ae67779e6df2.png in Resources */ = {isa = PBXBuildFile; fileRef = E52C60AF1BE29A110062DF32 /* adf1baca-05d7-11e3-918e-ae67779e6df2.png */; settings = {ASSET_TAGS = (); }; };
+		E52C60B31BE29A200062DF32 /* github-mark.png in Resources */ = {isa = PBXBuildFile; fileRef = E52C60B11BE29A200062DF32 /* github-mark.png */; settings = {ASSET_TAGS = (); }; };
+		E52C60B41BE29A200062DF32 /* github-psd-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E52C60B21BE29A200062DF32 /* github-psd-icon.jpg */; settings = {ASSET_TAGS = (); }; };
+		E52C60B61BE29D150062DF32 /* dribbble-github-flow-tee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E52C60B51BE29D150062DF32 /* dribbble-github-flow-tee.jpg */; settings = {ASSET_TAGS = (); }; };
 		E5FDCFD91BE2437A001C2791 /* cooltext145388039495918.png in Resources */ = {isa = PBXBuildFile; fileRef = E5FDCFD71BE2437A001C2791 /* cooltext145388039495918.png */; settings = {ASSET_TAGS = (); }; };
 		E5FDCFDA1BE2437A001C2791 /* cooltext145387992590411.png in Resources */ = {isa = PBXBuildFile; fileRef = E5FDCFD81BE2437A001C2791 /* cooltext145387992590411.png */; settings = {ASSET_TAGS = (); }; };
 		E5FDCFDD1BE24C4E001C2791 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDCFDC1BE24C4E001C2791 /* Extensions.swift */; settings = {ASSET_TAGS = (); }; };
@@ -69,6 +73,10 @@
 		E52C60A91BE294FF0062DF32 /* Fire-Flames.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Fire-Flames.jpg"; path = "wagonfire/Images/Fire-Flames.jpg"; sourceTree = "<group>"; };
 		E52C60AA1BE294FF0062DF32 /* pTRU1-18398012enh-z6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pTRU1-18398012enh-z6.jpg"; path = "wagonfire/Images/pTRU1-18398012enh-z6.jpg"; sourceTree = "<group>"; };
 		E52C60AD1BE2958A0062DF32 /* RedWagonBella.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = RedWagonBella.jpg; path = wagonfire/Images/RedWagonBella.jpg; sourceTree = "<group>"; };
+		E52C60AF1BE29A110062DF32 /* adf1baca-05d7-11e3-918e-ae67779e6df2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "adf1baca-05d7-11e3-918e-ae67779e6df2.png"; path = "wagonfire/Images/adf1baca-05d7-11e3-918e-ae67779e6df2.png"; sourceTree = "<group>"; };
+		E52C60B11BE29A200062DF32 /* github-mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "github-mark.png"; path = "wagonfire/Images/github-mark.png"; sourceTree = "<group>"; };
+		E52C60B21BE29A200062DF32 /* github-psd-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "github-psd-icon.jpg"; path = "wagonfire/Images/github-psd-icon.jpg"; sourceTree = "<group>"; };
+		E52C60B51BE29D150062DF32 /* dribbble-github-flow-tee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "dribbble-github-flow-tee.jpg"; path = "wagonfire/Images/dribbble-github-flow-tee.jpg"; sourceTree = "<group>"; };
 		E5FDCFD71BE2437A001C2791 /* cooltext145388039495918.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooltext145388039495918.png; sourceTree = "<group>"; };
 		E5FDCFD81BE2437A001C2791 /* cooltext145387992590411.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooltext145387992590411.png; sourceTree = "<group>"; };
 		E5FDCFDC1BE24C4E001C2791 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = wagonfire/Extensions/Extensions.swift; sourceTree = "<group>"; };
@@ -186,7 +194,11 @@
 		E52497501BE1D10D009BBC72 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E52C60B51BE29D150062DF32 /* dribbble-github-flow-tee.jpg */,
 				E52C60AD1BE2958A0062DF32 /* RedWagonBella.jpg */,
+				E52C60B11BE29A200062DF32 /* github-mark.png */,
+				E52C60B21BE29A200062DF32 /* github-psd-icon.jpg */,
+				E52C60AF1BE29A110062DF32 /* adf1baca-05d7-11e3-918e-ae67779e6df2.png */,
 				E52C60A91BE294FF0062DF32 /* Fire-Flames.jpg */,
 				E52C60AA1BE294FF0062DF32 /* pTRU1-18398012enh-z6.jpg */,
 				E5FDCFD71BE2437A001C2791 /* cooltext145388039495918.png */,
@@ -314,12 +326,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				E524975A1BE1DB6B009BBC72 /* cooltext145341106966042.png in Resources */,
+				E52C60B61BE29D150062DF32 /* dribbble-github-flow-tee.jpg in Resources */,
+				E52C60B01BE29A110062DF32 /* adf1baca-05d7-11e3-918e-ae67779e6df2.png in Resources */,
 				E52497271BE1C2CC009BBC72 /* LaunchScreen.storyboard in Resources */,
 				E52497241BE1C2CC009BBC72 /* Assets.xcassets in Resources */,
 				E52C60AB1BE294FF0062DF32 /* Fire-Flames.jpg in Resources */,
 				E524974D1BE1CE25009BBC72 /* MainView.storyboard in Resources */,
 				E52497581BE1D8B7009BBC72 /* wagonfire.png in Resources */,
+				E52C60B31BE29A200062DF32 /* github-mark.png in Resources */,
 				E5FDCFD91BE2437A001C2791 /* cooltext145388039495918.png in Resources */,
+				E52C60B41BE29A200062DF32 /* github-psd-icon.jpg in Resources */,
 				E52497221BE1C2CC009BBC72 /* Main.storyboard in Resources */,
 				E5FDCFDA1BE2437A001C2791 /* cooltext145387992590411.png in Resources */,
 				E524975C1BE1DC94009BBC72 /* wagonfire.jpg in Resources */,
