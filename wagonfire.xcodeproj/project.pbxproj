@@ -20,6 +20,9 @@
 		E52497581BE1D8B7009BBC72 /* wagonfire.png in Resources */ = {isa = PBXBuildFile; fileRef = E52497571BE1D8B7009BBC72 /* wagonfire.png */; settings = {ASSET_TAGS = (); }; };
 		E524975A1BE1DB6B009BBC72 /* cooltext145341106966042.png in Resources */ = {isa = PBXBuildFile; fileRef = E52497591BE1DB6B009BBC72 /* cooltext145341106966042.png */; settings = {ASSET_TAGS = (); }; };
 		E524975C1BE1DC94009BBC72 /* wagonfire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E524975B1BE1DC94009BBC72 /* wagonfire.jpg */; settings = {ASSET_TAGS = (); }; };
+		E52C60AB1BE294FF0062DF32 /* Fire-Flames.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E52C60A91BE294FF0062DF32 /* Fire-Flames.jpg */; settings = {ASSET_TAGS = (); }; };
+		E52C60AC1BE294FF0062DF32 /* pTRU1-18398012enh-z6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E52C60AA1BE294FF0062DF32 /* pTRU1-18398012enh-z6.jpg */; settings = {ASSET_TAGS = (); }; };
+		E52C60AE1BE2958A0062DF32 /* RedWagonBella.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E52C60AD1BE2958A0062DF32 /* RedWagonBella.jpg */; settings = {ASSET_TAGS = (); }; };
 		E5FDCFD91BE2437A001C2791 /* cooltext145388039495918.png in Resources */ = {isa = PBXBuildFile; fileRef = E5FDCFD71BE2437A001C2791 /* cooltext145388039495918.png */; settings = {ASSET_TAGS = (); }; };
 		E5FDCFDA1BE2437A001C2791 /* cooltext145387992590411.png in Resources */ = {isa = PBXBuildFile; fileRef = E5FDCFD81BE2437A001C2791 /* cooltext145387992590411.png */; settings = {ASSET_TAGS = (); }; };
 		E5FDCFDD1BE24C4E001C2791 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDCFDC1BE24C4E001C2791 /* Extensions.swift */; settings = {ASSET_TAGS = (); }; };
@@ -63,6 +66,9 @@
 		E52497571BE1D8B7009BBC72 /* wagonfire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wagonfire.png; path = wagonfire/Images/wagonfire.png; sourceTree = "<group>"; };
 		E52497591BE1DB6B009BBC72 /* cooltext145341106966042.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooltext145341106966042.png; sourceTree = "<group>"; };
 		E524975B1BE1DC94009BBC72 /* wagonfire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wagonfire.jpg; path = wagonfire/Images/wagonfire.jpg; sourceTree = "<group>"; };
+		E52C60A91BE294FF0062DF32 /* Fire-Flames.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Fire-Flames.jpg"; path = "wagonfire/Images/Fire-Flames.jpg"; sourceTree = "<group>"; };
+		E52C60AA1BE294FF0062DF32 /* pTRU1-18398012enh-z6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pTRU1-18398012enh-z6.jpg"; path = "wagonfire/Images/pTRU1-18398012enh-z6.jpg"; sourceTree = "<group>"; };
+		E52C60AD1BE2958A0062DF32 /* RedWagonBella.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = RedWagonBella.jpg; path = wagonfire/Images/RedWagonBella.jpg; sourceTree = "<group>"; };
 		E5FDCFD71BE2437A001C2791 /* cooltext145388039495918.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooltext145388039495918.png; sourceTree = "<group>"; };
 		E5FDCFD81BE2437A001C2791 /* cooltext145387992590411.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooltext145387992590411.png; sourceTree = "<group>"; };
 		E5FDCFDC1BE24C4E001C2791 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = wagonfire/Extensions/Extensions.swift; sourceTree = "<group>"; };
@@ -180,6 +186,9 @@
 		E52497501BE1D10D009BBC72 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E52C60AD1BE2958A0062DF32 /* RedWagonBella.jpg */,
+				E52C60A91BE294FF0062DF32 /* Fire-Flames.jpg */,
+				E52C60AA1BE294FF0062DF32 /* pTRU1-18398012enh-z6.jpg */,
 				E5FDCFD71BE2437A001C2791 /* cooltext145388039495918.png */,
 				E5FDCFD81BE2437A001C2791 /* cooltext145387992590411.png */,
 				E524975B1BE1DC94009BBC72 /* wagonfire.jpg */,
@@ -307,12 +316,15 @@
 				E524975A1BE1DB6B009BBC72 /* cooltext145341106966042.png in Resources */,
 				E52497271BE1C2CC009BBC72 /* LaunchScreen.storyboard in Resources */,
 				E52497241BE1C2CC009BBC72 /* Assets.xcassets in Resources */,
+				E52C60AB1BE294FF0062DF32 /* Fire-Flames.jpg in Resources */,
 				E524974D1BE1CE25009BBC72 /* MainView.storyboard in Resources */,
 				E52497581BE1D8B7009BBC72 /* wagonfire.png in Resources */,
 				E5FDCFD91BE2437A001C2791 /* cooltext145388039495918.png in Resources */,
 				E52497221BE1C2CC009BBC72 /* Main.storyboard in Resources */,
 				E5FDCFDA1BE2437A001C2791 /* cooltext145387992590411.png in Resources */,
 				E524975C1BE1DC94009BBC72 /* wagonfire.jpg in Resources */,
+				E52C60AC1BE294FF0062DF32 /* pTRU1-18398012enh-z6.jpg in Resources */,
+				E52C60AE1BE2958A0062DF32 /* RedWagonBella.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
