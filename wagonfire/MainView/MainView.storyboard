@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="3yD-8P-rYf">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Main View View Controller-->
+        <scene sceneID="uRh-Gf-Krr">
+            <objects>
+                <viewController id="3yD-8P-rYf" customClass="MainViewViewController" customModule="wagonfire" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n0e-ew-HxA"/>
+                        <viewControllerLayoutGuide type="bottom" id="xPU-2O-fLv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4Fh-fV-feo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SIK-kg-UG8">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wagonfire.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5vA-ck-oNA">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="576"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="5vA-ck-oNA" secondAttribute="height" multiplier="5:9" id="SDL-2s-504"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cooltext145387992590411.png" translatesAutoresizingMaskIntoConstraints="NO" id="m0K-3N-VcW">
+                                        <rect key="frame" x="0.0" y="78" width="320" height="76"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="76" id="jSt-Zl-sxe"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cooltext145388039495918.png" translatesAutoresizingMaskIntoConstraints="NO" id="hSr-XT-FpV">
+                                        <rect key="frame" x="0.0" y="186" width="320" height="59"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="59" id="LqI-Gk-pEh"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.83970565029999999" green="0.83970565029999999" blue="0.83970565029999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="5vA-ck-oNA" firstAttribute="top" secondItem="SIK-kg-UG8" secondAttribute="top" id="3rB-vk-vXF"/>
+                                    <constraint firstItem="5vA-ck-oNA" firstAttribute="leading" secondItem="SIK-kg-UG8" secondAttribute="leading" id="4i4-IH-Lxj"/>
+                                    <constraint firstItem="m0K-3N-VcW" firstAttribute="top" secondItem="SIK-kg-UG8" secondAttribute="top" constant="78" id="6eb-YF-JIs"/>
+                                    <constraint firstAttribute="width" secondItem="SIK-kg-UG8" secondAttribute="height" multiplier="40:71" id="DAu-Ad-ZDP"/>
+                                    <constraint firstItem="m0K-3N-VcW" firstAttribute="centerX" secondItem="5vA-ck-oNA" secondAttribute="centerX" id="Eh7-G1-ErU"/>
+                                    <constraint firstItem="hSr-XT-FpV" firstAttribute="top" secondItem="m0K-3N-VcW" secondAttribute="bottom" constant="32" id="KU1-bc-m2Z"/>
+                                    <constraint firstItem="m0K-3N-VcW" firstAttribute="leading" secondItem="5vA-ck-oNA" secondAttribute="leading" id="ajV-y4-ohD"/>
+                                    <constraint firstItem="hSr-XT-FpV" firstAttribute="centerX" secondItem="5vA-ck-oNA" secondAttribute="centerX" id="fgZ-9E-Z7A"/>
+                                    <constraint firstItem="hSr-XT-FpV" firstAttribute="leading" secondItem="m0K-3N-VcW" secondAttribute="leading" id="jng-2U-Ti7"/>
+                                    <constraint firstAttribute="trailing" secondItem="5vA-ck-oNA" secondAttribute="trailing" id="wQL-Ns-JAd"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SIK-kg-UG8" firstAttribute="top" secondItem="4Fh-fV-feo" secondAttribute="top" id="3IT-3W-iWt"/>
+                            <constraint firstItem="SIK-kg-UG8" firstAttribute="bottom" secondItem="xPU-2O-fLv" secondAttribute="top" id="R7j-OS-Ih8"/>
+                            <constraint firstItem="SIK-kg-UG8" firstAttribute="leading" secondItem="4Fh-fV-feo" secondAttribute="leading" id="Szc-IS-AV2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundView" destination="SIK-kg-UG8" id="JOC-hT-tKZ"/>
+                        <outlet property="fireLogoImage" destination="5vA-ck-oNA" id="RYu-oz-aQp"/>
+                        <outlet property="fireTextImage" destination="hSr-XT-FpV" id="UIw-NW-I6w"/>
+                        <outlet property="wagonTextImage" destination="m0K-3N-VcW" id="Cqs-Az-kHA"/>
+                        <segue destination="bsY-gw-i8O" kind="modal" identifier="MainToSegueIdentifier" modalTransitionStyle="flipHorizontal" id="mcC-Wz-AeI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I4y-tY-NEI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="120" y="364"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cDV-mH-ice">
+            <objects>
+                <viewController id="bsY-gw-i8O" customClass="OSSViewController" customModule="wagonfire" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SQl-qH-dyS"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ytw-4M-ggx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aP3-gc-VBA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p6S-5Y-jVo">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Initiative.png" translatesAutoresizingMaskIntoConstraints="NO" id="BBd-rD-c0P">
+                                        <rect key="frame" x="0.0" y="276" width="320" height="59"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="github-psd-icon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Eom-rU-Ycb">
+                                        <rect key="frame" x="0.0" y="382" width="320" height="186"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="186" id="VJr-1X-7lE"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.0" tag="1" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="opensource.png" translatesAutoresizingMaskIntoConstraints="NO" id="WnT-he-acH">
+                                        <rect key="frame" x="0.0" y="209" width="320" height="59"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="320" id="F9V-ds-d0M"/>
+                                            <constraint firstAttribute="height" constant="59" id="bdA-Uh-RIc"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.74117648599999997" green="0.89411771299999998" blue="0.94117653369999998" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstItem="BBd-rD-c0P" firstAttribute="centerX" secondItem="p6S-5Y-jVo" secondAttribute="centerX" id="9Nn-h7-dwI"/>
+                                    <constraint firstItem="WnT-he-acH" firstAttribute="top" secondItem="p6S-5Y-jVo" secondAttribute="top" constant="209" id="Clj-Yu-7HU"/>
+                                    <constraint firstAttribute="trailing" secondItem="Eom-rU-Ycb" secondAttribute="trailing" id="HbM-kB-py6"/>
+                                    <constraint firstItem="BBd-rD-c0P" firstAttribute="leading" secondItem="WnT-he-acH" secondAttribute="leading" id="K1e-i5-y6i"/>
+                                    <constraint firstItem="BBd-rD-c0P" firstAttribute="top" secondItem="WnT-he-acH" secondAttribute="bottom" constant="8" symbolic="YES" id="Lc9-Y0-oMK"/>
+                                    <constraint firstItem="WnT-he-acH" firstAttribute="leading" secondItem="p6S-5Y-jVo" secondAttribute="leading" id="QUX-MF-5z1"/>
+                                    <constraint firstAttribute="trailing" secondItem="WnT-he-acH" secondAttribute="trailing" id="ajo-xf-xck"/>
+                                    <constraint firstAttribute="width" secondItem="p6S-5Y-jVo" secondAttribute="height" multiplier="40:71" id="iCa-Z0-tfN"/>
+                                    <constraint firstItem="Eom-rU-Ycb" firstAttribute="width" secondItem="p6S-5Y-jVo" secondAttribute="width" id="kHH-Vz-t93"/>
+                                    <constraint firstItem="WnT-he-acH" firstAttribute="width" secondItem="p6S-5Y-jVo" secondAttribute="width" id="oJQ-j0-PrZ"/>
+                                    <constraint firstItem="Eom-rU-Ycb" firstAttribute="top" secondItem="BBd-rD-c0P" secondAttribute="bottom" constant="47" id="owT-a0-Ib6"/>
+                                    <constraint firstItem="BBd-rD-c0P" firstAttribute="height" secondItem="WnT-he-acH" secondAttribute="height" id="t2k-n7-iMt"/>
+                                    <constraint firstItem="BBd-rD-c0P" firstAttribute="width" secondItem="WnT-he-acH" secondAttribute="width" id="uUL-Fq-hfo"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="p6S-5Y-jVo" firstAttribute="top" secondItem="aP3-gc-VBA" secondAttribute="top" id="c7O-sY-BU0"/>
+                            <constraint firstItem="p6S-5Y-jVo" firstAttribute="bottom" secondItem="Ytw-4M-ggx" secondAttribute="top" id="gab-xA-9z5"/>
+                            <constraint firstItem="p6S-5Y-jVo" firstAttribute="leading" secondItem="aP3-gc-VBA" secondAttribute="leading" id="w7E-hL-VbE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backView" destination="p6S-5Y-jVo" id="LHn-s0-hpk"/>
+                        <outlet property="openTextImage" destination="WnT-he-acH" id="B4Y-2h-Tn0"/>
+                        <outlet property="ossLogo" destination="Eom-rU-Ycb" id="tCk-o4-mYX"/>
+                        <outlet property="sourceText" destination="BBd-rD-c0P" id="mRj-G2-Lb8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Al-xt-hql" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="527" y="364"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Initiative.png" width="157" height="47"/>
+        <image name="cooltext145387992590411.png" width="228" height="64"/>
+        <image name="cooltext145388039495918.png" width="78" height="35"/>
+        <image name="github-psd-icon.jpg" width="580" height="340"/>
+        <image name="opensource.png" width="232" height="47"/>
+        <image name="wagonfire.jpg" width="1200" height="1800"/>
+    </resources>
+</document>
