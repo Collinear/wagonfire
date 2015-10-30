@@ -41,7 +41,7 @@ class OSSViewController: UIViewController {
         
         dispatch_after(dispatchTime, dispatch_get_main_queue(), {
             UIView.animateWithDuration(0.7, animations: { () -> Void in
-                self.ossLogo.frame.origin.y -= 100
+                self.ossLogo.frame.origin.y -= self.ossLogo.frame.origin.y
                 print("top = \(self.ossLogo.frame.origin.y)")
                 }, completion: { (success) -> Void in
                      let foo = true
