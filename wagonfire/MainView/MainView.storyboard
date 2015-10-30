@@ -78,10 +78,10 @@
             </objects>
             <point key="canvasLocation" x="120" y="364"/>
         </scene>
-        <!--Main View View Controller-->
+        <!--View Controller-->
         <scene sceneID="cDV-mH-ice">
             <objects>
-                <viewController id="bsY-gw-i8O" customClass="MainViewViewController" customModule="wagonfire" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bsY-gw-i8O" customClass="OSSViewController" customModule="wagonfire" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SQl-qH-dyS"/>
                         <viewControllerLayoutGuide type="bottom" id="Ytw-4M-ggx"/>
@@ -93,31 +93,18 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p6S-5Y-jVo">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dribbble-github-flow-tee.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dXr-m0-cpF">
-                                        <rect key="frame" x="0.0" y="-5" width="320" height="573"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="github-psd-icon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Eom-rU-Ycb">
+                                        <rect key="frame" x="0.0" y="382" width="320" height="186"/>
                                         <animations/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="dXr-m0-cpF" secondAttribute="height" multiplier="320:573" id="CEk-SE-5Tq"/>
-                                        </constraints>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="github-mark.png" translatesAutoresizingMaskIntoConstraints="NO" id="Eom-rU-Ycb">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                        <animations/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="Eom-rU-Ycb" secondAttribute="height" multiplier="40:71" id="Ko6-uH-8oW"/>
-                                        </constraints>
                                     </imageView>
                                 </subviews>
                                 <animations/>
                                 <color key="backgroundColor" red="0.74117648599999997" green="0.89411771299999998" blue="0.94117653369999998" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="dXr-m0-cpF" secondAttribute="trailing" id="3QU-0D-8RP"/>
-                                    <constraint firstAttribute="bottom" secondItem="dXr-m0-cpF" secondAttribute="bottom" id="6le-aj-kTr"/>
-                                    <constraint firstItem="Eom-rU-Ycb" firstAttribute="bottom" secondItem="dXr-m0-cpF" secondAttribute="bottom" id="8uw-h7-bVL"/>
-                                    <constraint firstItem="dXr-m0-cpF" firstAttribute="leading" secondItem="p6S-5Y-jVo" secondAttribute="leading" id="92w-zX-tMV"/>
-                                    <constraint firstItem="Eom-rU-Ycb" firstAttribute="trailing" secondItem="dXr-m0-cpF" secondAttribute="trailing" id="VTl-so-d5B"/>
+                                    <constraint firstItem="Eom-rU-Ycb" firstAttribute="top" secondItem="p6S-5Y-jVo" secondAttribute="top" constant="382" id="0Bc-qE-ZSg"/>
+                                    <constraint firstItem="Eom-rU-Ycb" firstAttribute="width" secondItem="p6S-5Y-jVo" secondAttribute="width" id="C5A-g4-cgd"/>
+                                    <constraint firstAttribute="trailing" secondItem="Eom-rU-Ycb" secondAttribute="trailing" id="ahU-oA-Xr2"/>
                                     <constraint firstAttribute="width" secondItem="p6S-5Y-jVo" secondAttribute="height" multiplier="40:71" id="iCa-Z0-tfN"/>
-                                    <constraint firstItem="Eom-rU-Ycb" firstAttribute="leading" secondItem="dXr-m0-cpF" secondAttribute="leading" id="v0Z-jd-qHU"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -130,8 +117,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="backImage" destination="dXr-m0-cpF" id="gpS-jw-1hN"/>
-                        <outlet property="frontImage" destination="Eom-rU-Ycb" id="ode-sq-YMs"/>
+                        <outlet property="backView" destination="p6S-5Y-jVo" id="LHn-s0-hpk"/>
+                        <outlet property="ossLogo" destination="Eom-rU-Ycb" id="tCk-o4-mYX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Al-xt-hql" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -142,8 +129,7 @@
     <resources>
         <image name="cooltext145387992590411.png" width="228" height="64"/>
         <image name="cooltext145388039495918.png" width="78" height="35"/>
-        <image name="dribbble-github-flow-tee.jpg" width="800" height="600"/>
-        <image name="github-mark.png" width="1200" height="630"/>
+        <image name="github-psd-icon.jpg" width="580" height="340"/>
         <image name="wagonfire.jpg" width="1200" height="1800"/>
     </resources>
 </document>

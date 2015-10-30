@@ -4,4 +4,3 @@ use_frameworks!
 xcodeproj 'wagonfire.xcodeproj'
 
 pod 'SnapKit', '~> 0.15.0'
-pod 'StarWars', '~> 1.0'
