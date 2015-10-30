@@ -12,10 +12,11 @@ import SnapKit
 class OSSViewController: UIViewController {
 
     
-    @IBOutlet weak var backView : UIView!
-    @IBOutlet weak var ossLogo  : UIImageView!
+    @IBOutlet weak var backView      : UIView!
+    @IBOutlet weak var ossLogo       : UIImageView!
+    @IBOutlet weak var openTextImage : UIImageView!
+    @IBOutlet weak var sourceText    : UIImageView!
     
-
     func constraints() {
         backView.frame = CGRectMake(0, 0, super.view.frame.width, super.view.frame.height)
         
@@ -45,10 +46,19 @@ class OSSViewController: UIViewController {
                 print("top = \(self.ossLogo.frame.origin.y)")
                 }, completion: { (success) -> Void in
                      let foo = true
-                    
             })
-
         })
+        
+        dispatch_after(dispatchTime, dispatch_get_main_queue(), {
+            UIView.animateWithDuration(1.0, animations: { () -> Void in
+                self.openTextImage.alpha += 0.1
+                print("alpha = \(self.openTextImage.alpha)")
+                }, completion: { (success) -> Void in
+                    let foo = true
+            })
+        })
+        
+        
     }
     
     
