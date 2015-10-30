@@ -8,7 +8,6 @@
 
 import UIKit
 import SnapKit
-import StarWars
 
 class MainViewViewController: UIViewController {
 
@@ -20,8 +19,6 @@ class MainViewViewController: UIViewController {
     @IBOutlet weak var fireTextImage  : UIImageView!
     @IBOutlet weak var backImage      : UIImageView!
     @IBOutlet weak var frontImage     : UIImageView!
-    
-    
     
     
     //MARK: - Custom methods
@@ -54,20 +51,10 @@ class MainViewViewController: UIViewController {
         })
     }
 
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let destination = segue.destinationViewController
-        //destination.transitioningDelegate = self
-    }
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    
-    func animationControllerForDismissedController(dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        return StarWarsGLAnimator()
     }
     
     // MARK: - Navigation
