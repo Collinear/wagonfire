@@ -20,13 +20,6 @@ class OSSViewController: UIViewController {
     func constraints() {
         backView.frame = CGRectMake(0, 0, super.view.frame.width, super.view.frame.height)
         
-        ossLogo.snp_makeConstraints { (make) -> Void in
-            make.left.equalTo(backView.snp_left)
-            make.right.equalTo(backView.snp_right)
-            make.width.equalTo(backView.snp_width)
-            //make.width.equalTo(super.view.frame.width)
-        }
-        
         openTextImage.snp_makeConstraints { (make) -> Void in
             make.width.equalTo(backView.snp_width)
             make.height.equalTo(59)
