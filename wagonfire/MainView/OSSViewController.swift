@@ -19,7 +19,6 @@ class OSSViewController: UIViewController {
     func constraints() {
         backView.frame = CGRectMake(0, 0, super.view.frame.width, super.view.frame.height)
         
-        
         ossLogo.snp_makeConstraints { (make) -> Void in
             make.left.equalTo(backView.snp_left)
             make.right.equalTo(backView.snp_right)
@@ -38,10 +37,17 @@ class OSSViewController: UIViewController {
         let topMargin  = self.backView.frame.origin.y
         var ossLogoTop = self.ossLogo.frame.origin.y
         
+        print("topMargin: \(topMargin)  ossLogoTop: \(ossLogoTop)")
+        
         dispatch_after(dispatchTime, dispatch_get_main_queue(), {
+            UIView.animateWithDuration(0.7, animations: { () -> Void in
+                self.ossLogo.frame.origin.y -= 100
+                print("top = \(self.ossLogo.frame.origin.y)")
+                }, completion: { (success) -> Void in
+                     let foo = true
+                    
+            })
 
-            
-            
         })
     }
     
@@ -50,7 +56,8 @@ class OSSViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        animateDisplay()
+        
     }
 
     override func didReceiveMemoryWarning() {
