@@ -25,6 +25,13 @@
 		E52C60B01BE29A110062DF32 /* adf1baca-05d7-11e3-918e-ae67779e6df2.png in Resources */ = {isa = PBXBuildFile; fileRef = E52C60AF1BE29A110062DF32 /* adf1baca-05d7-11e3-918e-ae67779e6df2.png */; settings = {ASSET_TAGS = (); }; };
 		E52C60B41BE29A200062DF32 /* github-psd-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E52C60B21BE29A200062DF32 /* github-psd-icon.jpg */; settings = {ASSET_TAGS = (); }; };
 		E52C60B81BE2CF960062DF32 /* OSSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52C60B71BE2CF960062DF32 /* OSSViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E52C60BD1BE316130062DF32 /* cooltext145480137821712.png in Resources */ = {isa = PBXBuildFile; fileRef = E52C60B91BE316130062DF32 /* cooltext145480137821712.png */; settings = {ASSET_TAGS = (); }; };
+		E52C60BE1BE316130062DF32 /* cooltext145480106565143.png in Resources */ = {isa = PBXBuildFile; fileRef = E52C60BA1BE316130062DF32 /* cooltext145480106565143.png */; settings = {ASSET_TAGS = (); }; };
+		E52C60BF1BE316130062DF32 /* cooltext145480074124344.png in Resources */ = {isa = PBXBuildFile; fileRef = E52C60BB1BE316130062DF32 /* cooltext145480074124344.png */; settings = {ASSET_TAGS = (); }; };
+		E52C60C01BE316130062DF32 /* cooltext145480017042663.png in Resources */ = {isa = PBXBuildFile; fileRef = E52C60BC1BE316130062DF32 /* cooltext145480017042663.png */; settings = {ASSET_TAGS = (); }; };
+		E52C61361BE3B1BF0062DF32 /* cooltext145583783428705.png in Resources */ = {isa = PBXBuildFile; fileRef = E52C61351BE3B1BF0062DF32 /* cooltext145583783428705.png */; settings = {ASSET_TAGS = (); }; };
+		E52C61391BE3B4EA0062DF32 /* Initiative.png in Resources */ = {isa = PBXBuildFile; fileRef = E52C61371BE3B4EA0062DF32 /* Initiative.png */; settings = {ASSET_TAGS = (); }; };
+		E52C613A1BE3B4EA0062DF32 /* opensource.png in Resources */ = {isa = PBXBuildFile; fileRef = E52C61381BE3B4EA0062DF32 /* opensource.png */; settings = {ASSET_TAGS = (); }; };
 		E5FDCFD91BE2437A001C2791 /* cooltext145388039495918.png in Resources */ = {isa = PBXBuildFile; fileRef = E5FDCFD71BE2437A001C2791 /* cooltext145388039495918.png */; settings = {ASSET_TAGS = (); }; };
 		E5FDCFDA1BE2437A001C2791 /* cooltext145387992590411.png in Resources */ = {isa = PBXBuildFile; fileRef = E5FDCFD81BE2437A001C2791 /* cooltext145387992590411.png */; settings = {ASSET_TAGS = (); }; };
 		E5FDCFDD1BE24C4E001C2791 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDCFDC1BE24C4E001C2791 /* Extensions.swift */; settings = {ASSET_TAGS = (); }; };
@@ -73,6 +80,13 @@
 		E52C60AF1BE29A110062DF32 /* adf1baca-05d7-11e3-918e-ae67779e6df2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "adf1baca-05d7-11e3-918e-ae67779e6df2.png"; path = "wagonfire/Images/adf1baca-05d7-11e3-918e-ae67779e6df2.png"; sourceTree = "<group>"; };
 		E52C60B21BE29A200062DF32 /* github-psd-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "github-psd-icon.jpg"; path = "wagonfire/Images/github-psd-icon.jpg"; sourceTree = "<group>"; };
 		E52C60B71BE2CF960062DF32 /* OSSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OSSViewController.swift; path = wagonfire/MainView/OSSViewController.swift; sourceTree = "<group>"; };
+		E52C60B91BE316130062DF32 /* cooltext145480137821712.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooltext145480137821712.png; sourceTree = "<group>"; };
+		E52C60BA1BE316130062DF32 /* cooltext145480106565143.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooltext145480106565143.png; sourceTree = "<group>"; };
+		E52C60BB1BE316130062DF32 /* cooltext145480074124344.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooltext145480074124344.png; sourceTree = "<group>"; };
+		E52C60BC1BE316130062DF32 /* cooltext145480017042663.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooltext145480017042663.png; sourceTree = "<group>"; };
+		E52C61351BE3B1BF0062DF32 /* cooltext145583783428705.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooltext145583783428705.png; sourceTree = "<group>"; };
+		E52C61371BE3B4EA0062DF32 /* Initiative.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Initiative.png; path = wagonfire/Images/Initiative.png; sourceTree = "<group>"; };
+		E52C61381BE3B4EA0062DF32 /* opensource.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = opensource.png; path = wagonfire/Images/opensource.png; sourceTree = "<group>"; };
 		E5FDCFD71BE2437A001C2791 /* cooltext145388039495918.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooltext145388039495918.png; sourceTree = "<group>"; };
 		E5FDCFD81BE2437A001C2791 /* cooltext145387992590411.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooltext145387992590411.png; sourceTree = "<group>"; };
 		E5FDCFDC1BE24C4E001C2791 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = wagonfire/Extensions/Extensions.swift; sourceTree = "<group>"; };
@@ -191,6 +205,13 @@
 		E52497501BE1D10D009BBC72 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E52C61371BE3B4EA0062DF32 /* Initiative.png */,
+				E52C61381BE3B4EA0062DF32 /* opensource.png */,
+				E52C61351BE3B1BF0062DF32 /* cooltext145583783428705.png */,
+				E52C60B91BE316130062DF32 /* cooltext145480137821712.png */,
+				E52C60BA1BE316130062DF32 /* cooltext145480106565143.png */,
+				E52C60BB1BE316130062DF32 /* cooltext145480074124344.png */,
+				E52C60BC1BE316130062DF32 /* cooltext145480017042663.png */,
 				E52C60B21BE29A200062DF32 /* github-psd-icon.jpg */,
 				E52C60AF1BE29A110062DF32 /* adf1baca-05d7-11e3-918e-ae67779e6df2.png */,
 				E52C60A91BE294FF0062DF32 /* Fire-Flames.jpg */,
@@ -319,13 +340,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52C60BE1BE316130062DF32 /* cooltext145480106565143.png in Resources */,
+				E52C60BD1BE316130062DF32 /* cooltext145480137821712.png in Resources */,
 				E524975A1BE1DB6B009BBC72 /* cooltext145341106966042.png in Resources */,
+				E52C61391BE3B4EA0062DF32 /* Initiative.png in Resources */,
+				E52C60BF1BE316130062DF32 /* cooltext145480074124344.png in Resources */,
 				E52C60B01BE29A110062DF32 /* adf1baca-05d7-11e3-918e-ae67779e6df2.png in Resources */,
 				E52497271BE1C2CC009BBC72 /* LaunchScreen.storyboard in Resources */,
+				E52C61361BE3B1BF0062DF32 /* cooltext145583783428705.png in Resources */,
 				E52497241BE1C2CC009BBC72 /* Assets.xcassets in Resources */,
 				E52C60AB1BE294FF0062DF32 /* Fire-Flames.jpg in Resources */,
 				E524974D1BE1CE25009BBC72 /* MainView.storyboard in Resources */,
 				E52497581BE1D8B7009BBC72 /* wagonfire.png in Resources */,
+				E52C613A1BE3B4EA0062DF32 /* opensource.png in Resources */,
+				E52C60C01BE316130062DF32 /* cooltext145480017042663.png in Resources */,
 				E5FDCFD91BE2437A001C2791 /* cooltext145388039495918.png in Resources */,
 				E52C60B41BE29A200062DF32 /* github-psd-icon.jpg in Resources */,
 				E52497221BE1C2CC009BBC72 /* Main.storyboard in Resources */,
