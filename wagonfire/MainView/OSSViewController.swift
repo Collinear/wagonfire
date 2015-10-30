@@ -55,7 +55,7 @@ class OSSViewController: UIViewController {
         
         
         let animateSource = 6.0
-        let sourceDelay   = seconds * Double(NSEC_PER_SEC)
+        let sourceDelay   = animateSource * Double(NSEC_PER_SEC)
         let sourceTime    = dispatch_time(DISPATCH_TIME_NOW, Int64(delay))
      
         dispatch_after(sourceTime, dispatch_get_main_queue(), {
@@ -68,7 +68,7 @@ class OSSViewController: UIViewController {
         })
         
         let openSource = 6.00
-        let openeDelay = seconds * Double(NSEC_PER_SEC)
+        let openeDelay = openSource * Double(NSEC_PER_SEC)
         let openTime   = dispatch_time(DISPATCH_TIME_NOW, Int64(delay))
         
         dispatch_after(openTime, dispatch_get_main_queue(), {
