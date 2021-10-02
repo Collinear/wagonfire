@@ -88,7 +88,7 @@
 		};
 		E524972A1BE1C2CC009BBC72 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 21474836478;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
